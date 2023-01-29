@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hesman-clone/static/css/main.f251e16e.css",
+    "main.js": "/hesman-clone/static/js/main.e4b1fce5.js",
+    "index.html": "/hesman-clone/index.html",
+    "main.f251e16e.css.map": "/hesman-clone/static/css/main.f251e16e.css.map",
+    "main.e4b1fce5.js.map": "/hesman-clone/static/js/main.e4b1fce5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f251e16e.css",
+    "static/js/main.e4b1fce5.js"
+  ]
+}
