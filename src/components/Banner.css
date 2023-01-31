@@ -1,0 +1,90 @@
+.Banner{
+    background-image: url(https://hesman.net/wp-content/uploads/2022/04/Hero-Background.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100%;
+}
+.Banner .Banner-top{
+    position: relative;
+}
+.Banner-top .bti-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: auto;
+}
+.Banner-top .bti-1 img{
+    width: 100%;
+}
+
+.Banner-top .bti-2{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    height: auto;
+    z-index: 99;
+}
+.Banner-top .bti-3{
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    height: auto;
+    z-index: 100;
+}
+
+.Banner .Banner-bottom{
+    display: flex;
+    height: 100%;
+    padding-bottom: 10px;
+    flex-direction: row;
+}
+.Banner .Banner-bottom .Banner-bottom-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.Banner .Banner-bottom .Banner-bottom-img img{
+    height: 100%;
+    margin: 0 auto;
+}
+.Banner .Banner-bottom .Banner-card{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+}
+.Banner-bottom .Banner-card .Banner-card-item{
+    width: 30%;
+    height: auto;
+    background-color: black;
+    border: 4px solid black;
+}
+.Banner-bottom .Banner-card .Banner-card-item img{
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+}
+.Banner-bottom .Banner-card .Banner-card-item img:hover{
+    opacity: 100%;
+}
+@media screen and (max-width: 1024px) {
+    .Banner .Banner-bottom{
+        flex-direction: column;
+    }
+    .Banner .Banner-bottom .Banner-bottom-img{
+        height: 70%;
+        width: auto;
+    }
+    .Banner .Banner-bottom .Banner-card{
+        width: 100%;
+        height: 30%;
+    }
+}

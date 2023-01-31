@@ -1,0 +1,61 @@
+.members {
+    display: flex;
+    padding: 50px 10px 50px 10px;
+    gap: 10px;
+}
+
+.members .members-left {
+    flex-grow: 1;
+}
+.members .members-right {
+    flex-grow: 1;
+}
+
+.members .members-left h2 {
+    font-family: "Chakra Petch", Sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: -0.05px;
+}
+
+.members .members-left p {
+    font-family: "Jura", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.members-right .slider-item {
+    display: inline-block;
+    position: relative;
+    height: 600px;
+    margin-right: -17%;
+}
+
+.members-right .slider-item>img {
+    height: 100%;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+
+.members-right .slider-item:hover>img{
+    filter: brightness(100%);
+}
+
+
+.members-right .slider-item .slider-item-name {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    opacity: 0;
+}
+.members-right .slider-item:hover .slider-item-name{
+    opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .members{
+        flex-direction: column;
+    }
+}

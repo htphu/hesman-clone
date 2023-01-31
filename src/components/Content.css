@@ -1,0 +1,26 @@
+.content {
+    width: 100vw;
+}
+
+.heSinhThai .heSinhThai-header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    align-items: center;
+}
+
+.heSinhThai .heSinhThai-header h2 {
+    color: #ffffff;
+    font-family: "Chakra Petch";
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heSinhThai .heSinhThai-slideItem img{
+    width: 100vw;
+}
