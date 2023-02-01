@@ -58,4 +58,13 @@
     .members{
         flex-direction: column;
     }
+    .members .members-left h2 {
+        font-family: "Chakra Petch", Sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -0.05px;
+    }
+    
+
 }

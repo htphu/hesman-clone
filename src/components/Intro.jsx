@@ -7,7 +7,7 @@ function Intro() {
                 <div className="intro-top-item">
                     <img src="https://hesman.net/wp-content/uploads/2022/03/About-Studio-1.jpg.webp" alt="" />
                 </div>
-                <div className="intro-top-item intro-top-item-midd" style={{ padding: "10px" }}>
+                <div className="intro-top-item intro-top-item-midd" >
                     <img src="https://hesman.net/wp-content/uploads/2022/03/Hero-7-2-768x919.jpg.webp" alt="" />
                     <div className="mask">
                         <h2>Dũng sĩ

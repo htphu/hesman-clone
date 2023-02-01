@@ -1,5 +1,4 @@
-
-.intro-top{
+.intro-top {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -7,19 +6,27 @@
     align-items: center;
     position: relative;
 }
-.intro-top .intro-top-item{
+
+.intro-top .intro-top-item {
     height: 100%;
     flex-grow: 2;
     position: relative;
 }
-.intro-top .intro-top-item:first-child{
+
+.intro-top .intro-top-item:first-child {
     flex-grow: 1;
 }
-.intro-top .intro-top-item img{
+
+.intro-top .intro-top-item:nth-child(2) {
+    padding: 10px;
+}
+
+.intro-top .intro-top-item img {
     height: 100%;
     width: 100%;
 }
-.intro-top .intro-top-item .mask{
+
+.intro-top .intro-top-item .mask {
     position: absolute;
     top: 0;
     right: 0;
@@ -27,36 +34,41 @@
     bottom: 0;
     padding: 60px 90px 0px 90px;
 }
-.intro-top .intro-top-item .mask h2{
+
+.intro-top .intro-top-item .mask h2 {
     margin: 0;
 }
-.intro-top .intro-top-item .mask h2:first-child{
+
+.intro-top .intro-top-item .mask h2:first-child {
     font-family: "Chakra Petch", Sans-serif;
     font-size: 80px;
     font-weight: 700;
     line-height: 80px;
 
 }
-.intro-top .intro-top-item .mask h2:nth-child(2)
-{
+
+.intro-top .intro-top-item .mask h2:nth-child(2) {
     font-family: "Jura", Sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
 }
-.intro-top .intro-top-item .mask p{
+
+.intro-top .intro-top-item .mask p {
     font-family: "Jura", Sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
 }
-.intro-top .intro-top-item .mask .mask-btnGroup{
+
+.intro-top .intro-top-item .mask .mask-btnGroup {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.intro-top .intro-top-item .mask .mask-btnGroup button{
+
+.intro-top .intro-top-item .mask .mask-btnGroup button {
     font-size: 24px;
     font-weight: 700;
     font-family: "Chakra Petch", Sans-serif;
@@ -66,20 +78,23 @@
 
 }
 
-.intro-top .intro-top-item .mask .mask-btnGroup button:nth-child(1){
+.intro-top .intro-top-item .mask .mask-btnGroup button:nth-child(1) {
     background-color: #ffff00;
 }
-.intro-top .intro-top-item .mask .mask-btnGroup button:nth-child(2){
+
+.intro-top .intro-top-item .mask .mask-btnGroup button:nth-child(2) {
     background-color: #3B62FF;
     color: white;
 }
-.intro-top .intro-top-imgMan{
+
+.intro-top .intro-top-imgMan {
     position: absolute;
     right: 100px;
     bottom: 0;
     height: 90%;
 }
-.intro-top .intro-top-imgSmoke{
+
+.intro-top .intro-top-imgSmoke {
     position: absolute;
     right: 0;
     bottom: 10px;
@@ -87,22 +102,28 @@
 }
 
 
-.intro-bottom{
+.intro-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.intro-bottom h2{
+
+.intro-bottom h2 {
     margin: 0;
 }
-.intro-bottom .intro-bottom-item-left,.intro-bottom-item-right{
+
+.intro-bottom .intro-bottom-item-left,
+.intro-bottom-item-right {
     padding: 0 10px;
     position: relative;
 }
-.intro-bottom .intro-bottom-item-left img,.intro-bottom-item-right img{
+
+.intro-bottom .intro-bottom-item-left img,
+.intro-bottom-item-right img {
     width: 100%;
 }
-.intro-bottom .mask{
+
+.intro-bottom .mask {
     position: absolute;
     right: 0;
     left: 0;
@@ -111,46 +132,55 @@
     padding: 60px 40px;
     text-align: center;
 }
-.intro-bottom .intro-bottom-item-left .mask h2:nth-child(1){
+
+.intro-bottom .intro-bottom-item-left .mask h2:nth-child(1) {
     font-family: "Chakra Petch", Sans-serif;
     font-size: 90px;
     font-weight: 700;
     line-height: 56px;
-    
+
 }
-.intro-bottom .intro-bottom-item-left .mask h2:nth-child(2),h2:nth-child(3){
+
+.intro-bottom .intro-bottom-item-left .mask h2:nth-child(2),
+h2:nth-child(3) {
     font-family: "Jura", Sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 66px;
     padding: 20px 0;
 }
-.intro-bottom .intro-bottom-item-left .mask h2:nth-child(4){
+
+.intro-bottom .intro-bottom-item-left .mask h2:nth-child(4) {
     font-family: "Jura", Sans-serif;
     font-size: 225px;
     font-weight: 700;
 }
-.intro-bottom .intro-bottom-item-left .mask h2:nth-child(5){
+
+.intro-bottom .intro-bottom-item-left .mask h2:nth-child(5) {
     font-family: "Jura", Sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: 39px;
 }
-.intro-bottom .intro-bottom-item-right .mask h2:nth-child(1){
+
+.intro-bottom .intro-bottom-item-right .mask h2:nth-child(1) {
     font-family: "Chakra Petch", Sans-serif;
     font-size: 90px;
     font-weight: 700;
     line-height: 56px;
-    
+
 }
-.intro-bottom .intro-bottom-item-right .mask h2:nth-child(2),.intro-bottom-item-right .mask h2:nth-child(3){
+
+.intro-bottom .intro-bottom-item-right .mask h2:nth-child(2),
+.intro-bottom-item-right .mask h2:nth-child(3) {
     font-family: "Jura", Sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 66px;
     padding: 20px 0;
 }
-.intro-bottom .intro-bottom-item-right .mask h2:nth-child(4){
+
+.intro-bottom .intro-bottom-item-right .mask h2:nth-child(4) {
     font-family: "Jura", Sans-serif;
     font-size: 34px;
     font-weight: 700;
@@ -158,7 +188,8 @@
     line-height: 44px;
     padding: 20px 0;
 }
-.intro-bottom .intro-bottom-item-right .mask h2:nth-child(5){
+
+.intro-bottom .intro-bottom-item-right .mask h2:nth-child(5) {
     font-family: "Jura", Sans-serif;
     font-size: 44px;
     font-weight: 700;
@@ -166,29 +197,149 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .intro-top{
+
+    .intro-top {
         height: auto;
     }
-    .intro-top{
+
+    .intro-top {
         flex-direction: column;
     }
-    .intro-top .intro-top-item:first-child{
+
+    .intro-top .intro-top-item:first-child {
         display: none;
     }
-    .intro-top .intro-top-item{
-        width: 100vw;
+
+    .intro-top .intro-top-item:nth-child(2) {
+        padding: 0;
     }
-    .intro-top .intro-top-imgMan{
+
+    .intro-top .intro-top-item {
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    .intro-top .intro-top-imgMan {
         position: absolute;
         right: 0;
         bottom: 0;
         height: 40%;
     }
-    .intro-bottom{
+
+
+
+    .intro-top .intro-top-item .mask {
+        padding: 30px 20px;
+
+    }
+
+    .intro-top .intro-top-item img {
+        height: 100%;
+        width: auto;
+
+    }
+
+    .intro-top .intro-top-item .mask h2:first-child {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .intro-top .intro-top-item .mask p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .intro-top .intro-top-item .mask .mask-btnGroup {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .intro-bottom {
         flex-direction: column;
     }
-    .intro-bottom .intro-bottom-item-left,.intro-bottom-item-right{
+
+    .intro-bottom .intro-bottom-item-left,
+    .intro-bottom-item-right {
         padding: 0 10px;
         position: relative;
     }
+
+    .intro-bottom .intro-bottom-item-left img,
+    .intro-bottom-item-right img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .intro-bottom .mask {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .intro-bottom .intro-bottom-item-left .mask h2:nth-child(1) {
+        font-family: "Chakra Petch", Sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+
+    }
+
+    .intro-bottom .intro-bottom-item-left .mask h2:nth-child(2),
+    .intro-bottom-item-left .mask h2:nth-child(3) {
+        font-family: "Jura", Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 0;
+    }
+
+    .intro-bottom .intro-bottom-item-left .mask h2:nth-child(4) {
+        font-family: "Jura", Sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+
+    .intro-bottom .intro-bottom-item-left .mask h2:nth-child(5) {
+        font-family: "Jura", Sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    .intro-bottom .intro-bottom-item-right .mask h2:nth-child(1) {
+        font-family: "Chakra Petch", Sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .intro-bottom .intro-bottom-item-right .mask h2:nth-child(2),
+    .intro-bottom-item-right .mask h2:nth-child(3) {
+        font-family: "Jura", Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        padding:0;
+    }
+
+    .intro-bottom .intro-bottom-item-right .mask h2:nth-child(4) {
+        font-family: "Jura", Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 30px;
+        padding: 0;
+    }
+    .intro-bottom .intro-bottom-item-right .mask h2:nth-child(5) {
+        font-family: "Jura", Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
 }
