@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hesman-clone/static/css/main.68051fcf.css",
-    "main.js": "/hesman-clone/static/js/main.177b2c5f.js",
+    "main.css": "/hesman-clone/static/css/main.205f5ec1.css",
+    "main.js": "/hesman-clone/static/js/main.2ea43711.js",
     "index.html": "/hesman-clone/index.html",
-    "main.68051fcf.css.map": "/hesman-clone/static/css/main.68051fcf.css.map",
-    "main.177b2c5f.js.map": "/hesman-clone/static/js/main.177b2c5f.js.map"
+    "main.205f5ec1.css.map": "/hesman-clone/static/css/main.205f5ec1.css.map",
+    "main.2ea43711.js.map": "/hesman-clone/static/js/main.2ea43711.js.map"
   },
   "entrypoints": [
-    "static/css/main.68051fcf.css",
-    "static/js/main.177b2c5f.js"
+    "static/css/main.205f5ec1.css",
+    "static/js/main.2ea43711.js"
   ]
 }
